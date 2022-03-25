@@ -2,13 +2,14 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
-  width: 1440px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
+  min-height: 100vh;
 }
 
 img {
-
   width: 288px;
   margin: 16px;
   border-radius: 10px;
@@ -27,19 +28,17 @@ p {
 }
 
 .card {
-  display: inline-block;
-  box-shadow:17px 30px 10px rgba(0, 0, 0, 0.02);
+  box-shadow: 17px 30px 10px rgba(0, 0, 0, 0.02);
   background-color: White;
   width: 320px;
-  margin: 200px auto;
   border-radius: 20px;
   padding-bottom: 30px;
-
+  text-align: center;
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
+  display: none;
 }
 
 .attribution a {
